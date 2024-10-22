@@ -16,11 +16,11 @@ body.dark-theme .main-nav {
   background-color: #2c2c2c; /* Navbar color in dark mode */
 }
 
-/* Logo and menu container (logo and buttons will be near each other) */
+/* Logo and menu container */
 .navbar-section {
   display: flex;
   align-items: center;
-  gap: 2rem; /* Adjust the gap for space between logo and buttons */
+  gap: 2rem; /* Space between logo and buttons */
 }
 
 /* Logo section */
@@ -35,20 +35,22 @@ body.dark-theme .main-nav {
   gap: 1.5rem; /* Space between Home and Add Employee */
 }
 
-.menu-link button {
+/* Common button styles */
+.btn {
   background-color: #2c2c2c;
   color: white;
-  padding: 0.1rem 0.5rem;
+  padding: 0.5rem 1rem; /* More padding for better appearance */
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
-.menu-link button:hover {
-  background-color: #4a90e2;
+.btn:hover {
+  background-color: #4a90e2; /* Hover effect for buttons */
 }
 
-/* Theme toggle and hamburger menu */
+/* Theme toggle and logout button */
 .social-media {
   display: flex;
   align-items: center;
@@ -61,6 +63,7 @@ body.dark-theme .main-nav {
   cursor: pointer;
 }
 
+/* Hamburger menu */
 .hamburger-menu {
   display: none; /* Hidden by default, shown in mobile */
 }
@@ -106,6 +109,11 @@ body.dark-theme .main-nav {
   .mobile-menu button:hover {
     background-color: #4a90e2;
   }
+
+  /* Hide the logout button outside of the hamburger menu on small screens */
+  .logout-button {
+    display: none;
+  }
 }
 
 /* Dark theme styles */
@@ -117,4 +125,26 @@ body.dark-theme {
 body {
   background-color: var(--background-color);
   color: var(--text-color);
+}
+
+/* Additional styles for the logout button */
+.logout-button {
+  background-color: #2c2c2c; /* Same background color as other buttons */
+  color: white;
+  padding: 0.5rem 1rem; /* Same padding as other buttons */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.logout-button:hover {
+  background-color: #4a90e2; /* Same hover effect as other buttons */
+}
+
+@media (min-width: 769px) {
+  /* Show logout button on larger screens */
+  .logout-button {
+    display: block;
+  }
 }
