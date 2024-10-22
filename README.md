@@ -1,7 +1,7 @@
 # Dynamic_Employee_Portal
 
 ## Overview
-The Employee Management System (EMS) is a comprehensive web application built to manage employee records efficiently. This project utilizes a stack of modern technologies, including React.js for the frontend, Spring Boot for the backend, and MySQL for the database. The project aims to provide a user-friendly interface for performing CRUD operations, image upload, employee search functionality, and pagination.
+The Dynamic Employee Portal is a comprehensive web application built to manage employee records efficiently. This project utilizes a stack of modern technologies, including React.js for the frontend, Spring Boot for the backend, and MySQL for the database. The project aims to provide a user-friendly interface for performing CRUD operations, image upload, employee search functionality, and pagination.
 
 ## Features
 
@@ -25,5 +25,10 @@ The Employee Management System (EMS) is a comprehensive web application built to
 - **Frontend**: React.js, HTML, CSS, Bootstrap
 - **Backend** : Spring Boot, RESTful API
 - **Database**: MySQL
+
+# Login Page 
+
+![Login Page]("C:\Users\ADESH\Pictures\Screenshots\Screenshot (175).png")
+
 
 
