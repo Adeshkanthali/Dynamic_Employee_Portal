@@ -20,4 +20,10 @@ The Employee Management System (EMS) is a comprehensive web application built to
    - **Frontend Validation**:  
      Enhances the user experience by providing immediate feedback on form inputs using React.js and client-side validation.
 
+## Technologies Used 
+
+- **Frontend**: React.js, HTML, CSS, Bootstrap
+- **Backend** : Spring Boot, RESTful API
+- **Database**: MySQL
+
 
