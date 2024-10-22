@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import EmployeeService from '../service/EmployeeService';
@@ -58,7 +59,7 @@ const AddEmployee = () => {
         toast.success('Employee saved successfully!', {
           position: 'top-center',
         });
-        navigate('/');
+        navigate('/employeelist');
       })
       .catch((error) => {
         console.error('Error saving employee:', error.response ? error.response.data : error.message);
@@ -154,7 +155,7 @@ const AddEmployee = () => {
 
             <button
               type="button"
-              onClick={() => navigate('/')}
+              onClick={() => navigate('/employeelist')}
               className="bg-red-400 hover:bg-red-700 py-2 px-6 rounded w-full md:w-auto"
             >
               Cancel
