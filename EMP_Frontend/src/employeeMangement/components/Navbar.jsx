@@ -4,7 +4,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { FaSun, FaMoon } from 'react-icons/fa';
 import './Header.css';
 
-const Navbar = () => {
+const Navbar = ({ handleLogout }) => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
   const navigate = useNavigate();
@@ -15,39 +15,42 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="main-nav fixed-nav"> {/* Added 'fixed-nav' for fixed positioning */}
-
+    <nav className="main-nav fixed-nav">
       <div className="navbar-section">
-
-        {/* Logo */}
         <div className="logo">
           <h1 className="text-xl font-bold text-yellow-200">👨🏼‍💻 EM Service</h1>
         </div>
 
-        {/* Menu Links (Home and Add Employee) */}
         <div className="menu-link">
-          <button onClick={() => navigate('/')} className="btn">Home</button>
+          <button onClick={() => navigate('/employeelist')} className="btn">Home</button>
           <button onClick={() => navigate('/addEmployee')} className="btn">Add Employee</button>
         </div>
       </div>
 
-      {/* Theme Toggle */}
       <div className="social-media">
         <div className="theme-toggle" onClick={toggleDarkMode}>
           {darkMode ? <FaSun /> : <FaMoon />}
         </div>
 
-        {/* Hamburger Menu (Mobile view) */}
+        {/* Logout button positioned to the right of the theme toggle, visible on large screens */}
+        <button 
+          onClick={() => { handleLogout(); navigate('/'); }} 
+          className="btn logout-button"
+        >
+          Logout
+        </button>
+
         <div className="hamburger-menu" onClick={() => setShowMediaIcons(!showMediaIcons)}>
           <GiHamburgerMenu />
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {showMediaIcons && (
         <div className="mobile-menu">
-          <button onClick={() => { navigate('/'); setShowMediaIcons(false); }}>Home</button>
+          <button onClick={() => { navigate('/employeelist'); setShowMediaIcons(false); }}>Home</button>
           <button onClick={() => { navigate('/addEmployee'); setShowMediaIcons(false); }}>Add Employee</button>
+          {/* Logout button in the mobile menu */}
+          <button onClick={() => { handleLogout(); navigate('/'); setShowMediaIcons(false); }}>Logout</button>
         </div>
       )}
     </nav>
