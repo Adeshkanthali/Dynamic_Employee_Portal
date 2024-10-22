@@ -27,8 +27,9 @@ The Dynamic Employee Portal is a comprehensive web application built to manage e
 - **Database**: MySQL
 
 # Login Page 
+![151](image-url)
 
-![Login Page]("C:\Users\ADESH\Pictures\Screenshots\Screenshot (175).png")
+
 
 
 
