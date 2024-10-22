@@ -1,3 +1,5 @@
+
+
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import EmployeeService from '../service/EmployeeService';
@@ -105,7 +107,7 @@ function UpdateEmployee() {
         toast.success('Employee updated successfully!', {
           position: 'top-center',
         });
-        navigate('/');
+        navigate('/employeelist');
       })
       .catch(() => {
         toast.error('Error updating employee!', {
@@ -177,7 +179,7 @@ function UpdateEmployee() {
           </button>
 
           <button
-            onClick={() => navigate('/')}
+            onClick={() => navigate('/employeelist')}
             className="bg-red-400 hover:bg-red-700 py-2 px-6 rounded w-full md:w-auto"
           >
             Cancel
