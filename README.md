@@ -59,10 +59,18 @@ The Dynamic Employee Portal is a comprehensive web application built to manage e
 # Dark Theme
 ![160](https://github.com/user-attachments/assets/df0796da-45d6-4f1b-a188-cfd92f7a5e46)
 
-# Responsive 
+# Responsive
+## Login Page
+![161](https://github.com/user-attachments/assets/ea1a70e7-3003-45b7-b935-f83417f72e99)
 
+## Register Page
+![162](https://github.com/user-attachments/assets/4c41e484-e505-4768-8c65-6317bc1a73a4)
 
+## Home Page
+![163](https://github.com/user-attachments/assets/cd18d535-311e-4ee1-8305-71c06f627e95)
 
+## Dashbord
+![164](https://github.com/user-attachments/assets/1502383e-b1ed-4f11-be07-c71fd3f3ea11)
 
 
 
