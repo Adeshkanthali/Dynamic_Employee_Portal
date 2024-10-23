@@ -29,9 +29,46 @@ The Dynamic Employee Portal is a comprehensive web application built to manage e
 # Login Page 
 ![151](https://github.com/user-attachments/assets/c2dfdd73-46a5-4063-9c38-b5bbdaabf59d)
 
+# Register Page
+![152](https://github.com/user-attachments/assets/3749953b-162a-49b3-bb64-d30cc4922a71)
+
 # Home Page
+![153](https://github.com/user-attachments/assets/1ae4d17e-cf78-456a-ad36-bfee6225e932)
 
 # Add Employee
+![154](https://github.com/user-attachments/assets/44921c9d-d597-4c14-82cc-e353b33f79be)
+
+# Validation
+![155](https://github.com/user-attachments/assets/baf8a412-390b-4432-8623-035d775f574c)
+
+# Update Employee
+![156](https://github.com/user-attachments/assets/b20134ca-3a35-461c-9fe9-8371ba248c73)
+
+# Update Third Record
+![1551](https://github.com/user-attachments/assets/eb42dded-90a7-406b-ab63-abe22eaa8b43)
+
+# After Update Third Record
+![1552](https://github.com/user-attachments/assets/1a3c8ae4-9fcd-4ca1-b1d3-c5f5d7c44dd0)
+
+# Delete Third Record 
+![158](https://github.com/user-attachments/assets/08647010-4b2b-4f42-8e68-7dc5a9223ded)
+
+# Search Record
+![159](https://github.com/user-attachments/assets/7aa83f02-4ef0-413e-953b-b5f2a0ddc79f)
+
+# Dark Theme
+![160](https://github.com/user-attachments/assets/df0796da-45d6-4f1b-a188-cfd92f7a5e46)
+
+# Responsive 
+
+
+
+
+
+
+
+
+
 
 
 
